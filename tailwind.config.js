@@ -33,6 +33,20 @@ module.exports = {
           2: colors.purple[400],
           3: colors.purple[500]
         }
+      },
+      animation: {
+        marquee: 'marquee 200s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       }
     }
   },

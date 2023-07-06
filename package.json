@@ -9,7 +9,8 @@
     "lint": "next lint --config ./.eslintrc.js",
     "postinstall": "husky install",
     "postbuild": "next-sitemap --config next-sitemap.js",
-    "format": "yarn prettier --config ./.prettierrc.js --write ."
+    "format": "yarn prettier --config ./.prettierrc.js --write .",
+    "firebase": "firebase deploy"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",

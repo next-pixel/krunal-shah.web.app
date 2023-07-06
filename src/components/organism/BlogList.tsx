@@ -15,7 +15,7 @@ interface BlogListProps {
 const BlogList: React.FunctionComponent<BlogListProps> = ({ blogs, children, title, className, layout = 'row' }) => {
   return (
     <section className={className}>
-      <h2>{title}</h2>
+      <h2>{title} ({blogs.length})</h2>
       {blogs.length > 0 && (
         <ul className={twclsx('grid grid-cols-1 gap-4 flex-auto my-4', layout === 'row' && 'md:grid-cols-2')}>
           {blogs.map((val) => (

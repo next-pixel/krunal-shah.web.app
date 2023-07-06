@@ -215,6 +215,129 @@ website</li>
 	<li>Knowledge of Lucene.net integration with faceted search and also basic knowledge of NO SQL (Mongo DB)</li>
 	<li>Knowledge of Structured data format like Json and XML</li>
 </ul>
+<br></br>
+<section >
+    <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+       
+        <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+            
+            <a href="#" title='csharp' className="flex justify-center items-center">
+            <i className="devicon-csharp-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='dotnetcore' className="flex justify-center items-center">
+            <i className="devicon-dotnetcore-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='dot-net' className="flex justify-center items-center">
+            <i className="devicon-dot-net-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='microsoftsqlserver' className="flex justify-center items-center">
+            <i className="devicon-microsoftsqlserver-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='visualstudio' className="flex justify-center items-center">
+            <i className="devicon-visualstudio-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='vscode' className="flex justify-center items-center">
+            <i className="devicon-vscode-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='html5' className="flex justify-center items-center">
+            <i className="devicon-html5-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='javascript' className="flex justify-center items-center">
+            <i className="devicon-javascript-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='jquery' className="flex justify-center items-center">
+            <i className="devicon-jquery-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='css3' className="flex justify-center items-center">
+            <i className="devicon-css3-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='bootstrap' className="flex justify-center items-center">
+            <i className="devicon-bootstrap-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='angularjs' className="flex justify-center items-center">
+            <i className="devicon-angularjs-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='nodejs' className="flex justify-center items-center">
+            <i className="devicon-nodejs-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='typescript' className="flex justify-center items-center">
+            <i className="devicon-typescript-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='nextjs' className="flex justify-center items-center">
+            <i className="devicon-nextjs-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='npm' className="flex justify-center items-center">
+            <i className="devicon-npm-original-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='mongodb' className="flex justify-center items-center">
+            <i className="devicon-mongodb-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='postgresql' className="flex justify-center items-center">
+            <i className="devicon-postgresql-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='sqlite' className="flex justify-center items-center">
+            <i className="devicon-sqlite-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='react' className="flex justify-center items-center">
+            <i className="devicon-react-original-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='azure' className="flex justify-center items-center">
+            <i className="devicon-azure-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='bitbucket' className="flex justify-center items-center">
+            <i className="devicon-bitbucket-original-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='confluence' className="flex justify-center items-center">
+            <i className="devicon-confluence-original-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='docker' className="flex justify-center items-center">
+            <i className="devicon-docker-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='filezilla' className="flex justify-center items-center">
+            <i className="devicon-filezilla-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='firebase' className="flex justify-center items-center">
+            <i className="devicon-firebase-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='git' className="flex justify-center items-center">
+            <i className="devicon-git-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+           
+            <a href="#" title='graphql' className="flex justify-center items-center">
+            <i className="devicon-graphql-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='jenkins' className="flex justify-center items-center">
+            <i className="devicon-jenkins-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='jira' className="flex justify-center items-center">
+            <i className="devicon-jira-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='kubernetes' className="flex justify-center items-center">
+            <i className="devicon-kubernetes-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='materialui' className="flex justify-center items-center">
+            <i className="devicon-materialui-plain colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='mysql' className="flex justify-center items-center">
+            <i className="devicon-mysql-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='nuget' className="flex justify-center items-center">
+            <i className="devicon-nuget-original-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='oracle' className="flex justify-center items-center">
+            <i className="devicon-oracle-original colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+            <a href="#" title='redis' className="flex justify-center items-center">
+            <i className="devicon-redis-plain-wordmark colored text-8xl hover:text-gray-900 dark:hover:text-white"></i>                       
+            </a>
+
+           
+
+
+           
+        </div>
+    </div>
+</section>
     </Layout>
   )
 }

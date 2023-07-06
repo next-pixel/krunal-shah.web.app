@@ -48,11 +48,13 @@ const BlogPost: NextPage<BlogPostProps> = ({ data, mdxSource,blogs }) => {
               Written by <a title={data.author_name} href={siteURL}>{data.author_name} </a> /{' '}
               <time dateTime={dateStringToISO(data.published)}>{dateFormat(data.published)}</time>
               <br></br>
+              <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 md gap-2">
             {data.tags.map((tag) => (
              
              <span className='bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800' key={tag}>{tag}</span>
               
             ))}
+            </div>
             <br></br>
             
            
@@ -65,7 +67,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ data, mdxSource,blogs }) => {
 
         <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                <path Fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" Clip-rule="evenodd" />
+                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
             </svg>
         </span>
 
@@ -75,7 +77,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ data, mdxSource,blogs }) => {
 
         <span className="mx-5 text-gray-500 dark:text-gray-300 rtl:-scale-x-100">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                <path Fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" Clip-rule="evenodd" />
+                <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
             </svg>
         </span>
 
