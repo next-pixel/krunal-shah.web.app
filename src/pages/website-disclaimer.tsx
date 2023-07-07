@@ -8,8 +8,9 @@ const WebsiteDisclaimerPage: NextPage = () => {
     template: 'This is a disclaimer for the website Critical Thinking.',
     description: 'Website Disclaimer - This is a disclaimer for the website Critical Thinking.'
   }
+  const siteURL = process.env.NEXT_PUBLIC_SITE_URL
   return (
-    <Layout {...meta} as='main'>
+    <Layout canonical={siteURL+'/website-disclaimer/'} {...meta} as='main'>
     
     <article>
         <figure className='w-full pt-0'>

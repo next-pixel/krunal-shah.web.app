@@ -3,13 +3,15 @@ import { twclsx } from '@/libs/twclsx'
 import type { NextPage } from 'next'
 
 const PrivacyPolicyPage: NextPage = () => {
+  
   const meta = {
     title: 'Privacy Policy',
     template: 'About Our Privacy Policy',
     description: 'Privacy Policy About Our Privacy Policy'
   }
+  const siteURL = process.env.NEXT_PUBLIC_SITE_URL
   return (
-    <Layout {...meta} as='main'>
+    <Layout canonical={siteURL+'/privacy-policy/'} {...meta} as='main'>
     
     <article>
         <figure className='w-full pt-0'>

@@ -43,9 +43,9 @@ const Home: NextPage<HomeProps> = ({ blogs = [] }) => {
     }
   ]
   }
-
+  const siteURL = process.env.NEXT_PUBLIC_SITE_URL
   return (
-    <Layout as='main' {...meta}>
+    <Layout canonical={siteURL+''} as='main' {...meta}>
       <HeroWithPhoto image='/static/avatar.jpg' imageAlt={ownerName} {...meta}>
  
 

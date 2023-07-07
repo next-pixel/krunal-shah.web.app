@@ -6,6 +6,7 @@ interface LayoutProps {
   title: string
   description: string
   children: React.ReactNode
+  canonical : string
   as?: 'div' | 'main' | 'article'
 }
 

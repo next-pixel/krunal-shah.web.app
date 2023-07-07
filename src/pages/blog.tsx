@@ -21,9 +21,9 @@ interface BlogPageProps {
 
 const BlogPage: NextPage<BlogPageProps> = ({ latestPost = [], allPost = [] }) => {
   const { query, handleChange, filteredBlog } = useSearchBlogQuery(allPost)
-
+  const siteURL = process.env.NEXT_PUBLIC_SITE_URL
   return (
-    <Layout as='main' {...meta}>
+    <Layout as='main' canonical={siteURL + '/blog/'} {...meta}>
       <Hero {...meta} />
 
       <Searchbar onChange={handleChange} value={query} placeholder='Search Posts..' />

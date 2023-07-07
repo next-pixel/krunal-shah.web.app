@@ -15,6 +15,7 @@ export default class CustomDocument extends Document {
           <meta name="msvalidate.01" content="3770E26040336B97D6E3C626472C0C89" />
           <meta name="google-site-verification" content="5e06x4xhLxiUVlXqg2b93KekaEyO1Fyo84aTZcBEwqo" />
           <meta name="yandex-verification" content="14300056874868a1" />
+          <meta name="theme-color" content="#6e31fb"/>
         </Head>
         <body>
           <Main />

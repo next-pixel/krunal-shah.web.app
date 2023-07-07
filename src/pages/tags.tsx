@@ -51,11 +51,11 @@ const Tags: NextPage<TagsProps> = ({ tags = [], blogs = [] }) => {
     },
     [selectedTags]
   )
-
+  const siteURL = process.env.NEXT_PUBLIC_SITE_URL
   console.info(selectedTags)
 
   return (
-    <Layout {...meta} as='main'>
+    <Layout canonical={siteURL+'/tags/'} {...meta} as='main'>
       <Hero {...meta} />
       {tags.length > 0 && (
         <section className={twclsx('flex flex-col', 'mt-4 gap-4')}>

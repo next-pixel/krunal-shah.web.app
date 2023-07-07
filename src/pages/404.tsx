@@ -12,7 +12,7 @@ const NotFoundPage: NextPage = () => {
     description: 'The page you are looking for, are not found'
   }
   return (
-    <Layout {...meta} as='main'>
+    <Layout canonical='' {...meta} as='main'>
     
       <section className={twclsx('flex flex-col items-center justify-center', '-mt-16 md:-mt-20', 'min-h-screen')}>
         <h1 className={twclsx('text-center')}>404 | Not Found</h1>

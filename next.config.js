@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  future: {
+    webpack5: true,
+  },
   // below resolve module not found on fs module
   webpack: (config, { isServer }) => {
     if (!isServer) {

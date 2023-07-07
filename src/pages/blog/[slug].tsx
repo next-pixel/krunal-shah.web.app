@@ -33,7 +33,7 @@ const BlogPost: NextPage<BlogPostProps> = ({ data, mdxSource,blogs }) => {
   
 
   return (
-    <Layout {...metaData} as='main' title={data.title} description={data.summary}>
+    <Layout {...metaData} as='main' title={data.title} canonical={siteURL + '/blog/' + data.slug} description={data.summary}>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 md gap-4">
         <div className='col-span-3'>
       <article >
