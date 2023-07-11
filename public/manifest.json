@@ -1,0 +1,55 @@
+{
+  "short_name": "KS",
+  "name": "Krunal Shah",
+  "icons": [
+    {
+      "src": "https://krunal-shah.web.app/favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://krunal-shah.web.app/favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#6e31fb",
+  "shortcuts": [
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "I have been writing online since 2020, mostly about data science, machine learning and tech careers. On purpose for documentation while able to share my knowledge. Use the search below to filter by title.",
+      "url": "https://krunal-shah.web.app/blog/",
+      "icons": [{ "src": "https://krunal-shah.web.app/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "Tags",
+      "url": "https://krunal-shah.web.app/tags/",
+      "icons": [{ "src": "https://krunal-shah.web.app/favicon.ico", "sizes": "192x192" }]
+    }
+  ],
+  "description": "I am Krunal Shah or you can say kunal shah, i am writing a blogs, i have Over 8 years of experience in web development such as developing dynamic applications with top technologies. Deep knowledge of .NET Core, Angular CLI, Node Js, React, Asp.NET MVC, Sql Server, Oracle, Azure, HTML5, Javascript and CSS3, etc. and a Microsoft Certified: Azure Developer Associate.",
+  "screenshots": [
+    {
+      "src": "https://krunal-shah.web.app/favicon.ico",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://krunal-shah.web.app/favicon.ico",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}

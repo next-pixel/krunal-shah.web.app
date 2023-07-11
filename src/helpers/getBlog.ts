@@ -18,7 +18,8 @@ import * as path from 'path'
  * @returns The data and content of the blog post.
  */
 export const getBlogBySlug = async (slug: string) => {
-  const PATH_DIR = path.join(`${CONTENT_DIRECTORY}/blog`, `${slug}.mdx`)
+  const PATH_DIR = path.join(`${CONTENT_DIRECTORY}/blog`, `${slug.toLowerCase()}.mdx`)
+  console.log(PATH_DIR);
   const file = await fs.readFile(PATH_DIR, 'utf8')
 
   const { data, content } = matter(file)

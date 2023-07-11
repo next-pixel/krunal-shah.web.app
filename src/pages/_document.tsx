@@ -16,6 +16,7 @@ export default class CustomDocument extends Document {
           <meta name="google-site-verification" content="5e06x4xhLxiUVlXqg2b93KekaEyO1Fyo84aTZcBEwqo" />
           <meta name="yandex-verification" content="14300056874868a1" />
           <meta name="theme-color" content="#6e31fb"/>
+          <link rel="manifest" href="/manifest.json"></link>
         </Head>
         <body>
           <Main />
